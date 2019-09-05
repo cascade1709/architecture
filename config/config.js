@@ -5,5 +5,10 @@ module.exports = {
 	},
 	mongo: {
 		url: '*******************'
+	},
+
+	rabbitmq : {
+		url : 'amqp://localhost'
 	}
+
 }

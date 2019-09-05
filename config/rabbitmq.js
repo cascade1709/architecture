@@ -1,5 +1,6 @@
 const amqp = require('amqplib/callback_api');
-const conn = 'amqp://localhost';
+const config = require('./config');
+const conn = config.rabbitmq.url;
 
 let chnl = null;
 
